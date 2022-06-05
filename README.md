@@ -1,0 +1,9 @@
+# CounterDigits-Solution
+
+###Suppose we have an integer d between 0 and 9, we also have two positive integers low and high as lower and upper bounds, respectively. We have to find the number of times that d occurs as a digit in all integers between low and high, including the bounds low and high.
+
+For example, d=2, low= 10, high = 23 then the output will be 6, as digit d = 2 occurs 6 times: 12, 20, 21, 22, 23.
+
+### Write a function that takes a 3 parameters: a digit, lower and upper bounds as integer. The function will calculate how many times the given digit occurs within the numbers including lower and upper bounds.
+Please solve the problem for 0 <= digit < 10 and 0 < low < high, otherwise function should return -1.
+If no occurrences is found in the given range, function should return 0.
